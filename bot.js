@@ -21,7 +21,7 @@ client.on("message", (msg) => {
         modUser(msg.member);
     }
     if (msg.content === `${BOT_PREFIX}${UNMOD}`) {
-        modUser(msg.member);
+        unmodUser(msg.member);
     }
 });
 
