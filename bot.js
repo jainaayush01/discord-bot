@@ -14,7 +14,6 @@ client.on("ready", () => {
 }); 
 
 client.on("message", (msg) => {
-    console.log(msg);
     if (msg.member.id === "690857028641357885") {
         msg.react("💜")
     }
